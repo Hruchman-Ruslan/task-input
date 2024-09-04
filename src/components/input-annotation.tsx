@@ -3,5 +3,5 @@ export interface InputAnnotationProps {
 }
 
 export default function InputAnnotation({ children }: InputAnnotationProps) {
-  return <div>{children}</div>;
+  return <p>{children}</p>;
 }

@@ -3,5 +3,5 @@ export interface InputGroupProps {
 }
 
 export default function InputGroup({ children }: InputGroupProps) {
-  return <form>{children}</form>;
+  return <form className='m-auto'>{children}</form>;
 }

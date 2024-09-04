@@ -3,6 +3,6 @@ export interface InputLabelProps {
   title: string;
 }
 
-export default function InputLabel({ htmlFor, title }: InputLabelProps) {
+export default function InputLabels({ htmlFor, title }: InputLabelProps) {
   return <label htmlFor={htmlFor}>{title}</label>;
 }

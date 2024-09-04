@@ -3,5 +3,5 @@ export interface InputAnnotationProps {
 }
 
 export default function InputAnnotation({ children }: InputAnnotationProps) {
-  return <p>{children}</p>;
+  return <p className='text-[12px] font-normal leading-5'>{children}</p>;
 }

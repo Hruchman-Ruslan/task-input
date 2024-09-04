@@ -8,10 +8,9 @@ export default function Home() {
     <main className='flex min-h-screen flex-col justify-center'>
       <InputGroup>
         <InputLabels title='Email' htmlFor='email' />
-        <InputText id='email' type='text' placeholder='Email' />
-        <InputAnnotation>Error message</InputAnnotation>
+        <InputText id='email' type='text' placeholder='Input...' />
+        <InputAnnotation>This is a hint text to help user.</InputAnnotation>
       </InputGroup>
-      {/* <h1>⌘K</h1> */}
     </main>
   );
 }

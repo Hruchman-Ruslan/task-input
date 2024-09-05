@@ -8,7 +8,7 @@ export default function Home() {
     <main className='flex min-h-screen flex-col justify-center'>
       <InputGroup>
         <InputLabels title='Email' htmlFor='email' />
-        <InputText id='email' type='text' placeholder='Input...' />
+        <InputText id='email' type='email' placeholder='Input...' />
         <InputAnnotation>This is a hint text to help user.</InputAnnotation>
       </InputGroup>
     </main>
